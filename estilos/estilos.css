@@ -235,3 +235,9 @@ p {
         padding-top: 50%;
     }
 }
+
+@media ( max-width: 866px ) {
+    .div__Img {
+        width: 50%;
+    }
+}
