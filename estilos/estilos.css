@@ -133,6 +133,8 @@ a:hover {
 }
 .p_img {
     padding-left: 5%;
+    text-decoration: none;
+    color: black;
 }
 
 /* Experiencia */
