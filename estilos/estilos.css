@@ -24,7 +24,7 @@ body {
 .header {
     height: 30%;
     width: 100%;
-    background-color: rgb(49, 44, 44);
+    background-color: rgb(65, 65, 65);
 	clear:both;
 	position:fixed;
     z-index: 10;
@@ -53,7 +53,7 @@ body {
     padding-left: 2%;
     height: 100%;
     width: 80%;
-    color: #d1cab5;
+    color: #d4d4d4;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,7 +69,7 @@ body {
 .headernav {
     /*background-color: rgb(85, 76, 76);*/
     height: 30%;
-    color: #d1cab5;
+    color: #d4d4d4;
 
     font-weight: bolder;
     font-size: 1rem;
@@ -84,7 +84,7 @@ body {
 .navdiv2 {
     width: 100%;
     height: 30%;
-    color: #d1cab5;
+    color: #d4d4d4;
 
     font-weight: bolder;
     font-size: 1rem;
@@ -95,13 +95,13 @@ body {
 .a__nav {
     text-decoration: none;
     --clippy: polygon(0 0, 0 0, 0 100%, 0 100%);
-    color: #d1cab5;
+    color: #d4d4d4;
 }
 .a__nav::after {
     content: "";
     display: block;
-    background: #d1cab5;
-    color: #d1cab5;
+    background: #d4d4d4;
+    color: #d4d4d4;
     width: 90%;
     height: 3px;
     margin-top: 3px;
@@ -118,7 +118,7 @@ a:hover {
 /* body */
 
 .main1 {
-    background-color: #926856;
+    background-color: #949494;
     padding: 10%;
     margin-top: 10%;
     text-align: center;
@@ -127,7 +127,7 @@ a:hover {
     border-radius: 3rem;
 }
 .main2 {
-    background-color: #a58779;
+    background-color: #d4d4d4;
     padding: 10%;
     text-align: center;
     box-shadow: 0px 0px 100px 5px black;
@@ -135,7 +135,7 @@ a:hover {
     border-radius: 3rem;
 }
 .main {
-    background-color: #a58779;
+    background-color: #d4d4d4;
     padding: 10%;
 
     text-align: center;
@@ -149,13 +149,12 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-
     font-weight: bolder;
     font-size: 2rem;
     padding: 2%;
 }
 .section__grl {
-    background-color: #a7a191;
+    background-color: #d4d4d4;
     padding: 10%;
 
 }
@@ -248,7 +247,7 @@ li {
 .footer {
     margin-top: auto;
 
-    background-color: rgb(85, 76, 76);
+    background-color: rgb(91, 91, 91);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -285,15 +284,15 @@ li {
 }
 .abc {
     width: 15%;
-    background-color: rgb(85, 76, 76);
+    background-color: rgb(91, 91, 91);
 }
 .cba {
     display: flex;
     flex-direction: row;
-    background-color: rgb(85, 76, 76);
+    background-color: rgb(91, 91, 91);
 }
 .midsection {
-    background-color: rgb(85, 76, 76);
+    background-color: rgb(91, 91, 91);
     height: 1%;
     width: 100%;
     padding: 0%;
