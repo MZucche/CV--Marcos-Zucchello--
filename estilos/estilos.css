@@ -225,7 +225,7 @@ p {
 .Con__Section {
     display: flex;
     flex-direction: column;
-    padding-bottom: 6%;
+    padding-bottom: 15%;
 }
 .Con__Section2 {
     display: flex;
@@ -234,6 +234,8 @@ p {
 }
 .Con__h3 {
     font-size: 2rem;
+    border-top: solid;
+    border-width: 1.5px;
 }
 li {
     font-style: italic;
@@ -411,6 +413,13 @@ li {
     .main1 {
         margin-top: 35%;
     }
+    .titulo {
+        font-size: 1.7rem;
+    }
+    .Con__h3 {
+        font-size: 1.5rem;
+    }
+
 }
 @media ( max-width: 550px ) {
     .main1 {
@@ -420,9 +429,6 @@ li {
 @media ( max-width: 450px ) {
     .main1 {
         margin-top: 55%;
-    }
-    .titulo {
-        font-size: 2rem;
     }
     
 }
