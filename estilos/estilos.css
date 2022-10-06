@@ -16,7 +16,7 @@ body {
 * {
     padding: 0%;
     margin: 0%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 /* header */
@@ -212,6 +212,13 @@ p {
 }
 .Ed_DST_UADE {
     padding-left: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.DST_UADE {
+    width: 120%;
+    display: flex;
 }
 
 /* Conocimientos */
@@ -383,6 +390,11 @@ li {
 @media ( max-width: 1300px ){
     .main1 {
         margin-top: 15%;
+    }
+}
+@media ( max-width: 1000px ) {
+    .DST_UADE {
+        width: auto;
     }
 }
 @media ( max-width: 1000px ) {
