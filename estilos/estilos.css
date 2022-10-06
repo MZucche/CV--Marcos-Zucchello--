@@ -16,7 +16,7 @@ body {
 * {
     padding: 0%;
     margin: 0%;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* header */
@@ -53,23 +53,24 @@ body {
     padding-left: 2%;
     height: 100%;
     width: 80%;
-    font-family: Arial, Helvetica, sans-serif;
     color: #d1cab5;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-style: italic;
 }
 .headerh1 {
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    font-style: normal;
 }
 .headernav {
     /*background-color: rgb(85, 76, 76);*/
     height: 30%;
     color: #d1cab5;
-    font-family: Arial, Helvetica, sans-serif;
+
     font-weight: bolder;
     font-size: 1rem;
     display: flex;
@@ -84,7 +85,7 @@ body {
     width: 100%;
     height: 30%;
     color: #d1cab5;
-    font-family: Arial, Helvetica, sans-serif;
+
     font-weight: bolder;
     font-size: 1rem;
     flex-direction: row;
@@ -117,20 +118,26 @@ a:hover {
 /* body */
 
 .main1 {
-    background-color: #bb7c5f;
+    background-color: #926856;
     padding: 10%;
-    font-family: Helvetica, sans-serif;
     margin-top: 10%;
     text-align: center;
     box-shadow: 0px 0px 100px 5px black;
     position: relative;
     border-radius: 3rem;
 }
-.main {
-    background-color: #bb7c5f;
+.main2 {
+    background-color: #a58779;
     padding: 10%;
-    font-family: Helvetica, sans-serif;
-    margin-top: 10%;
+    text-align: center;
+    box-shadow: 0px 0px 100px 5px black;
+    position: relative;
+    border-radius: 3rem;
+}
+.main {
+    background-color: #a58779;
+    padding: 10%;
+
     text-align: center;
 }
 .main__section {
@@ -142,7 +149,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+
     font-weight: bolder;
     font-size: 2rem;
     padding: 2%;
@@ -150,7 +157,7 @@ a:hover {
 .section__grl {
     background-color: #a7a191;
     padding: 10%;
-    font-family: Helvetica, sans-serif;
+
 }
 .Section__body {
     display: flex;
@@ -161,6 +168,13 @@ a:hover {
     display: flex;
     justify-content: center;
     padding: 7%;
+    font-size: 3rem;
+}
+.titulo {
+    font-size: 3rem;
+    margin-bottom: 10%;
+    font-style: italic;
+    border-bottom: solid;
 }
 
 /* Experiencia */
@@ -183,7 +197,7 @@ a:hover {
 .Exp__h2 {
     padding-top: 2%;
     padding-left: 5%;
-    font-family: Helvetica, sans-serif;
+
 }
 p {
     padding-bottom: 2%;
@@ -211,12 +225,12 @@ p {
     flex-direction: column;
     margin-bottom: 10%;
 }
-.Con__h2 {
-    text-decoration: underline;
+.Con__h3 {
+    font-size: 2rem;
 }
 li {
     font-style: italic;
-    font-family: Arial, Helvetica, sans-serif; 
+    list-style-type: none;
     padding: 0.5%;
 }
 
@@ -224,7 +238,7 @@ li {
 
 .footer {
     margin-top: auto;
-    font-family: Arial, Helvetica, sans-serif;
+
     background-color: rgb(85, 76, 76);
     display: flex;
     flex-direction: column;
@@ -258,7 +272,7 @@ li {
     color: black;
 }
 .a__icon:hover {
-    fill: rgb(100, 100, 100);
+    fill: #a58779;
 }
 .abc {
     width: 15%;
@@ -268,6 +282,18 @@ li {
     display: flex;
     flex-direction: row;
     background-color: rgb(85, 76, 76);
+}
+.midsection {
+    background-color: rgb(85, 76, 76);
+    height: 1%;
+    width: 100%;
+    padding: 0%;
+    z-index: 11000;
+    position: relative;
+}
+.maindisposal {
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -333,6 +359,17 @@ li {
     .Exp__h2 {
         align-items: center;
     }
+    .main__section{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .midsection {
+        height: 0.5%;
+    }
+    .titulo {
+        font-size: 2.5rem;
+        margin-top: 15%;
+    }
 }
 
 @media ( max-width: 866px ) {
@@ -371,6 +408,9 @@ li {
 @media ( max-width: 450px ) {
     .main1 {
         margin-top: 55%;
+    }
+    .titulo {
+        font-size: 2rem;
     }
     
 }
